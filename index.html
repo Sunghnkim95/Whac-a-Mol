@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whac-a-Mol</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<main class="game">
+    <h1>Whac-a-Mole!</h1>
+    <main class="scoreBoard">
+        <div class="score">
+            <h2>Score: </h2>
+            <h2 id="score"> 0 </h2>
+        </div>
+        <div class="time">
+            <h2>Time Left: </h2>
+            <h2 id="time"> 60 </h2>
+        </div>
+        <div class="bestScore">
+            <h2>Best Score: </h2>
+            <h2 id="bestScore"> 0 </h2>
+        </div>
+
+        <div>
+            <h2 id="normMode"> Normal Mode </h2>
+        </div>
+        <div>
+            <h2 id="hardMode"> Hard Mode </h2>
+        </div>
+        <div>
+            <h2 id="ultHard"> Ultra Hard Mode </h2>
+        </div>
+        <div>
+            <h2 id="startbtn"> Start! </h2>
+        </div>
+    </main>
+
+    <div class = "field">
+        <div class = "hole" id="hole1"></div>
+        <div class = "hole" id="hole2"></div>
+        <div class = "hole" id="hole3"></div>
+        <div class = "hole" id="hole4"></div>
+        <div class = "hole" id="hole5"></div>
+        <div class = "hole" id="hole6"></div>
+        <div class = "hole" id="hole7"></div>
+        <div class = "hole" id="hole8"></div>
+        <div class = "hole" id="hole9"></div>
+    </div>
+</main>
+    
+
+    <img id="hammer" src="img/hammer.jpg" alt="hammer">
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
